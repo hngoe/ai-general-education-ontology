@@ -1,0 +1,15 @@
+filename,source_type,institution_tier,course_audience,year,source_verified,url,date_collected,status,notes,subset
+01_哈尔滨工业大学_计算思维与人工智能.txt,syllabus,double_first_class,大一新生通识（非AI专业）,2025,,https://www.icourse163.org/spoc/course/HIT-1472684167,2026-09,kept,通识,general
+01_哈尔滨工程大学_人工智能导论.txt,syllabus,double_first_class,全校各专业通识,,,https://www.icourse163.org/course/HRBEU-1458453162?tid=1463792468,2026-09,kept,通识；12章完整,general
+01_苏州大学_能源学院_人工智能.txt,syllabus,double_first_class,能源与动力工程等专业（非AI）,2021,,https://energy.suda.edu.cn/25/30/c31046a533808/page.htm,2026-09,kept,应用型通识,general
+01_中国社会科学院大学_人工智能.txt,syllabus,regular_undergraduate,全校通识/应用,,,https://jw.ucass.edu.cn/kcdg/zyk/yyjj/rengongzhineng.pdf?d=0.7160713827270913,2026-09,kept,通识,general
+北京邮电大学_人工智能导论（艺体）.txt,syllabus,double_first_class,艺体类大学新生通识,,,https://www.icourses.cn/vCourse/web/micro-multi-level?courseId=e7dcea9e54424132ae37989b00be9979,2026-09,kept,通识,general
+南开大学_人工智能与创新.txt,syllabus,double_first_class,非AI专业通识必修,,,https://www.icourse163.org/course/NKU-1471736170,2026-09,kept,通识必修,general
+西南交通大学_人工智能通识.txt,syllabus,double_first_class,全校通识,,,https://jwc.swjtu.edu.cn/vatuu/WebAction?setAction=newsDetail&viewType=web&newsId=48D721CBC2673BAA,2026-09,kept,通识,general
+四川师范大学_人工智能素养.txt,syllabus,regular_undergraduate,全校素养课,,,https://coursehome.zhihuishu.com/courseHome/1000105766#teachTeam,2026-09,kept,素养课,general
+武汉学院_通识人工智能.txt,syllabus,regular_undergraduate,全校通识,,,https://coursehome.zhihuishu.com/courseHome/1000107946#teachTeam,2026-09,kept,通识,general
+南华大学_计算与人工智能通识.txt,syllabus,regular_undergraduate,全校通识,,,https://www.icourse163.org/course/NHDX-1449955168?outVendor=zw_mooc_pcssjg_,2026-09,kept,通识,general
+02_浙江工商大学_解密DeepSeek：从基础到创意实践.txt,syllabus,regular_undergraduate,全校通识选修,,,https://scie.zjgsu.edu.cn/zh-hans/node/2606,2026-09,kept,通识,general
+海南软件职业技术学院_初识人工智能.txt,syllabus,vocational,高职通识,,,https://coursehome.zhihuishu.com/courseHome/1000063273#teachTeam,2026-09,kept,通识；高职,general
+青岛职业技术学院_初识人工智能.txt,syllabus,vocational,高职通识,,,https://coursehome.zhihuishu.com/courseHome/1000013684#teachTeam,2026-09,kept,通识；高职,general
+专科_郑州旅游职业学院_人工智能通识.txt,syllabus,vocational,高职通识,,,https://www.zztrc.edu.cn/system/resource/pdfjs/viewer.html?file=%2F__local%2F3%2F15%2FED%2F768356138E3DB84039997C1EBA5_A232DAB1_B7CCB.pdf,2026-09,kept,通识；高职,general
