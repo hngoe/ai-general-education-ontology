@@ -1,0 +1,35 @@
+filename,source_type,institution_tier,course_audience,year,source_verified,url,date_collected,status,notes
+01_上海交通大学_人工智能基础.pdf,syllabus,double_first_class,理工科本科低年级,2024,,https://me.sjtu.edu.cn/bkjx/upload/ueditor/file/20250630/1751271774236746.pdf,2026-09,kept,课程教学大纲2024版
+01_东南大学_人工智能通识导论.pdf,syllabus,double_first_class,全校理工类通识,,,https://palm.seu.edu.cn/wangdb/introAI/slides1.pdf,2026-09,kept,课程PPT共37页 含课程目标
+01_浙江大学_人工智能基础A.pdf,syllabus,double_first_class,理工农医低年级技术导论型(有编程预修),,,https://wintermelonc.github.io/WintermelonC_Docs/file/AI_basic/ai_doc1.pdf,2026-09,kept,课程代码CS1241G
+01_国防科技大学_人工智能基础_.txt,syllabus,double_first_class,技术导论型(MOOC 需数学基础 ),,,https://www.icourse163.org/course/NUDT-1466045161,2026-09,kept,经典AI内容 无大模型模块
+01_合肥工业大学_人工智能基础.txt,syllabus,double_first_class,非计算机专业全校通识必修(A工科/B文科),,,https://www.icourse163.org/course/HFUT-1473162171?tid=1476189441,2026-09,kept,含大模型工具与大模型原理
+01_江南大学_人工智能通识与实践.txt,syllabus,double_first_class,全校通识入门,,,https://www.icourse163.org/course/JIANGNAN-1472436161,2026-09,kept,MOOC课程概述文本
+01_西安电子科技大学_人工智能导论.txt,syllabus,double_first_class,专业低年级+人文各专业(混合型),,,https://www.icourse163.org/course/XDU-1207042802,2026-09,kept,经典AI技术型导论
+02_对外经济贸易大学_人工智能素养与实践.docx,syllabus,double_first_class,素养与实践通识,,,https://it.uibe.edu.cn/bksjx/jxdg/087932078ae84bb9980b407e6cfd2c0b.htm,2026-09,kept,211/双一流 教学大纲docx
+02_南京财经大学_人工智能入门.txt,syllabus,regular_undergraduate,全校通识入门,,,https://www.icourse163.org/course/NJUE-1472189168?tid=1487791444,2026-09,kept,内容较完整
+02_桂林电子科技大学_人工智能通识课设置实施方案.docx,syllabus,regular_undergraduate,全校通识(理工/管文/艺体分版),2025,,https://www.guet.edu.cn/_upload/article/files/66/b1/4362f254470d96344f78d15ccd3f/d051785a-2a11-44db-a1c3-ba582015a890.docx,2026-09,kept,官方实施方案(据桂教高教〔2025〕15号)
+02_江西师范大学_人工智能通识.txt,syllabus,regular_undergraduate,全校各专业通识,,,https://www.xuetangx.com/course/jxnu08091017168/31388278,2026-09,kept,学堂在线MOOC 8章(新替换)
+03_南京科技职业学院_人工智能基础.txt,syllabus,vocational,高职全校通识,,,https://www.icourse163.org/course/NJCC-1470644166?outVendor=zw_mooc_pcssjg_,2026-09,kept,人工智能+时代素养导向
+03_山东劳动职业技术学院_人工智能基础及应用.txt,syllabus,vocational,高职及应用型本科通识课,,,http://xxx.sdlvtc.cn/info/1262/3487.htm,2026-09,kept,文件自述课程类别=通识课
+03_深圳职业技术大学_人工智能应用.txt,syllabus,vocational,高职各专业通识,,,https://ai.icve.com.cn/app/coursedetails-excellent/268f0ed01c75e05e901d145f82ee8bf4/A6EABD68-D746-44E2-9C3D-9E1AA68EF904-FOPZ,2026-09,kept,高职AI应用通识课(新替换)
+UNESCO_教师人工智能能力框架_中文版.pdf,policy,na,na,2024,,https://doi.org/10.54675/ZJTE2084,2026-09,kept,联合国教科文组织2024
+新一代人工智能发展规划.pdf,policy,na,na,2017,,https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm,2026-09,kept,国发〔2017〕35号
+高等学校人工智能创新行动计划.docx,policy,na,na,2018,,http://www.moe.gov.cn/srcsite/A16/s7062/201804/t20180410_332722.html,2026-09,kept,教育部文件
+教育部等九部门关于加快推进教育数字化的意见.txt,policy,na,na,2025,,https://www.gov.cn/zhengce/zhengceku/202504/content_7019045.htm,2026-09,kept,教办〔2025〕3号
+教育部等五部门关于印发《人工智能+教育行动计划》2026.txt,policy,na,na,2026,,http://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html,2026-09,kept,行动计划全文
+山东省“人工智能+教育”实施方案.docx,policy,na,na,2025,,http://edu.shandong.gov.cn/art/2025/7/3/art_107055_10341362.html,2026-09,kept,省级实施方案
+福建省教育厅关于推进“人工智能+教育”十条措施的通知.txt,policy,na,na,2025,,http://jyt.fujian.gov.cn/jglb/gdjycsxwb/gjdt/202506/t20250625_6934934.htm,2026-09,kept,省级通知
+学术文献_Ng2021_AI素养探索性综述.pdf,literature,na,na,2021,,https://doi.org/10.1016/j.caeai.2021.100041,2026-09,kept,英文综述(Computers and Education: AI)
+学术文献_Hackl2026_AI素养七边形综述.pdf,literature,na,na,2026,,https://doi.org/10.1111/bjet.13411,2026-09,kept,英文综述(高教AI素养)
+全球视野下高校图书馆AI素养教育路径探索_张毅_大学图书馆学报.pdf,literature,na,na,2025,,https://kns.cnki.net/kcms2/article/abstract?v=tQWh-SbE9GrXM76QA_5vyNdn3aX4eEvl_q2RO8vZSlhOmEVOZBraLKIkCG9b1_pSaqxL0z1t1KHWsjv7JSpU04sLg5UqwfUkJD--FJNhZ3zKKxuWSu9jdqfTk3WU2kv8EuZxT1Qhhfzra6iBDGt_Zr6O05x7FeA6d1UScJNk6Peg7r8uEO8pVQ==,2026-09,kept,决定纳入语料(中文期刊 高等教育口径)
+_unused/1-s2.0-S2666920X25001274-main.pdf,literature,na,na,2025,,,,excluded,决定移出:GenAI素养综述面向K-12 与弃用口径冲突
+_replaced_backup/03_湖北工业职业技术学院_人工智能通识课.txt,syllabus,vocational,全校通识,2026,,,2026-09,replaced,删除替换:仅367字且为收集者改写稿
+_replaced_backup/02_浙江工商大学_解密DeepSeek：从基础到创意实践.txt,syllabus,regular_undergraduate,全校通识选修,2026,,,2026-09,replaced,删除替换:页面转述稿
+_replaced_backup/02_浙江树人学院_人工智能（通识课）.txt,syllabus,regular_undergraduate,人文社科通识,2026,,,2026-09,replaced,删除替换:实为王万良MOOC课程介绍文本
+01_南京大学_人工智能通识核心课.txt,syllabus,double_first_class,全校本科新生通识核心课,2026,,https://xsxy.nju.edu.cn/jxcg/zccl/rgzntshxk/20260716/i402076.html,2026-09,kept,官方实施方案全文 3352字(2026-07-16)
+02_大连民族大学_人工智能通识基础.txt,syllabus,regular_undergraduate,全校文理通用通识,,,https://www.xuetangx.com/course/dlnu08071015534/31386344,2026-09,kept,MOOC课程页(学堂在线) 1196字
+03_江海职业技术学院_人工智能通识.txt,syllabus,vocational,高职全校通识,2019-2026,,https://new.xueyinonline.com/detail/260454568,2026-09,kept,约492字 略低于500字下限
+01_厦门大学_计算机基础与人工智能应用.docx,syllabus,double_first_class,全校大一新生人工智能通识课,2026,,https://dblab.xmu.edu.cn/post/2026022801/,2026-09,kept,官方课程docx 1636字
+02_河北科技大学_人工智能基础.txt,syllabus,regular_undergraduate,本科公共基础必修(通识),,,https://www.icourse163.org/course/HEBUST-1002989019,2026-09,kept,MOOC课程 975字
+source_docs/source_L0_genai_measures.txt,policy,na,na,2023,,https://www.gov.cn/zhengce/zhengceku/202307/content_6891752.htm,2026-09,kept,生成式AI服务管理暂行办法全文(2866字)
