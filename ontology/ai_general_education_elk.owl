@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://example.org/ai-general-education/">
+    <rdfs:comment xml:lang="zh">高校人工智能通识教育领域本体（金标准骨架版）。由 golden_concepts_tiered / golden_relations / golden_relations_extended 程序化生成，供 Protégé 精修与 Pellet/HermiT 校验。</rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://example.org/ai-general-education/T1">
+    <rdfs:label xml:lang="zh">AI基础与元概念</rdfs:label>
+    <rdfs:comment xml:lang="zh">领域顶层类（由 GS concept_level 分组映射，可在 Protégé 内调整）。</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/T2">
+    <rdfs:label xml:lang="zh">AI核心技术</rdfs:label>
+    <rdfs:comment xml:lang="zh">领域顶层类（由 GS concept_level 分组映射，可在 Protégé 内调整）。</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/T3">
+    <rdfs:label xml:lang="zh">AI素养与能力</rdfs:label>
+    <rdfs:comment xml:lang="zh">领域顶层类（由 GS concept_level 分组映射，可在 Protégé 内调整）。</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/T4">
+    <rdfs:label xml:lang="zh">AI伦理与治理</rdfs:label>
+    <rdfs:comment xml:lang="zh">领域顶层类（由 GS concept_level 分组映射，可在 Protégé 内调整）。</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/T5">
+    <rdfs:label xml:lang="zh">AI工具与数据资源</rdfs:label>
+    <rdfs:comment xml:lang="zh">领域顶层类（由 GS concept_level 分组映射，可在 Protégé 内调整）。</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/T6">
+    <rdfs:label xml:lang="zh">AI应用与前沿方向</rdfs:label>
+    <rdfs:comment xml:lang="zh">领域顶层类（由 GS concept_level 分组映射，可在 Protégé 内调整）。</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_A">
+    <rdfs:label xml:lang="zh">总论与元概念</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（A总论）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T1"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_C">
+    <rdfs:label xml:lang="zh">技术/范式</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（C技术/范式）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T2"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_F">
+    <rdfs:label xml:lang="zh">素养能力</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（F素养能力）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T3"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_G">
+    <rdfs:label xml:lang="zh">伦理治理</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（G伦理治理）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T4"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_H">
+    <rdfs:label xml:lang="zh">法律监管</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（H法律监管）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T4"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_E">
+    <rdfs:label xml:lang="zh">工具产品</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（E工具产品）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T5"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_I">
+    <rdfs:label xml:lang="zh">数据资源</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（I数据资源）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T5"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_D">
+    <rdfs:label xml:lang="zh">任务与应用</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（D任务与应用）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T6"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_J">
+    <rdfs:label xml:lang="zh">前沿方向</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（J前沿方向）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T6"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/L_K">
+    <rdfs:label xml:lang="zh">教育应用</rdfs:label>
+    <rdfs:comment xml:lang="zh">GS concept_level 中层类（K教育应用）。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/T6"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C3">
+    <rdfs:label xml:lang="zh">AI安全</rdfs:label>
+    <rdfs:comment xml:lang="zh">防范AI设计使用中的泄露滥用与危害的安全保障｜GS 3｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C4">
+    <rdfs:label xml:lang="zh">AI幻觉</rdfs:label>
+    <rdfs:comment xml:lang="zh">生成式AI输出貌似可信却错误或虚构内容的现象｜GS 4｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C6">
+    <rdfs:label xml:lang="zh">AI治理与监管</rdfs:label>
+    <rdfs:comment xml:lang="zh">政府提供者用户等共同对AI负责并实施监管的制度机制｜GS 6｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_H"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C13">
+    <rdfs:label xml:lang="zh">Transformer</rdfs:label>
+    <rdfs:comment xml:lang="zh">交大&quot;Transformer（2学时）&quot;；合工大&quot;揭示Transformer的结构与原理&quot;｜GS 13｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C15">
+    <rdfs:label xml:lang="zh">专家系统</rdfs:label>
+    <rdfs:comment xml:lang="zh">用规则与知识库模拟领域专家决策的系统｜GS 15｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C16">
+    <rdfs:label xml:lang="zh">个性化学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">依据学习者差异定制内容路径的因材施教方式｜GS 16｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_K"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C21">
+    <rdfs:label xml:lang="zh">人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">使机器模拟、延伸和扩展人类智能的理论、方法、技术及应用系统｜GS 21｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_A"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C22">
+    <rdfs:label xml:lang="zh">人工智能+X</rdfs:label>
+    <rdfs:comment xml:lang="zh">人工智能与各学科交叉融合的复合型人才培养模式｜GS 22｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_K"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C24">
+    <rdfs:label xml:lang="zh">人工智能伦理</rdfs:label>
+    <rdfs:comment xml:lang="zh">关于AI设计使用中价值原则与伦理规范的知识体系｜GS 24｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C25">
+    <rdfs:label xml:lang="zh">人工智能思维</rdfs:label>
+    <rdfs:comment xml:lang="zh">培养学生具备人工智能思维能力｜GS 25｜分层 Common｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C28">
+    <rdfs:label xml:lang="zh">人工智能治理</rdfs:label>
+    <rdfs:comment xml:lang="zh">南大&quot;从跨学科视角思考人工智能伦理、治理以及与社会发展的关系&quot;｜GS 28｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C30">
+    <rdfs:label xml:lang="zh">人工智能素养</rdfs:label>
+    <rdfs:comment xml:lang="zh">理解并合乎伦理地有效使用人工智能所需的知识技能与价值观｜GS 30｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C32">
+    <rdfs:label xml:lang="zh">人工智能辅助决策</rdfs:label>
+    <rdfs:comment xml:lang="zh">由AI分析提供建议而由人类掌控并承担责任的决策方式｜GS 32｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_K"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C35">
+    <rdfs:label xml:lang="zh">人机交互</rdfs:label>
+    <rdfs:comment xml:lang="zh">人与机器之间进行信息交换与协同的技术与方式｜GS 35｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C36">
+    <rdfs:label xml:lang="zh">人机协同</rdfs:label>
+    <rdfs:comment xml:lang="zh">人与机器优势互补、共同完成任务的协作模式｜GS 36｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C38">
+    <rdfs:label xml:lang="zh">人类尊严</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI应用须尊重人之尊严的伦理底线｜GS 38｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C39">
+    <rdfs:label xml:lang="zh">人类能动性与自主权</rdfs:label>
+    <rdfs:comment xml:lang="zh">坚持AI由人类主导并保障人的自主决策权｜GS 39｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C40">
+    <rdfs:label xml:lang="zh">人脸识别</rdfs:label>
+    <rdfs:comment xml:lang="zh">人脸识别：机器也认识你｜GS 40｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_D"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C41">
+    <rdfs:label xml:lang="zh">伦理冲突</rdfs:label>
+    <rdfs:comment xml:lang="zh">浙大同上（伦理安全应对）｜GS 41｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C42">
+    <rdfs:label xml:lang="zh">伦理原则</rdfs:label>
+    <rdfs:comment xml:lang="zh">指导AI设计使用的基本伦理准则(不伤害/非歧视/比例/透明/可持续等)｜GS 42｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C43">
+    <rdfs:label xml:lang="zh">信息素养</rdfs:label>
+    <rdfs:comment xml:lang="zh">评估与使用信息的能力、与AI素养辨析相关｜GS 43｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C44">
+    <rdfs:label xml:lang="zh">信息茧房</rdfs:label>
+    <rdfs:comment xml:lang="zh">算法持续推送同质信息使个体视野固化独立思考受损｜GS 44｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C46">
+    <rdfs:label xml:lang="zh">公平性</rdfs:label>
+    <rdfs:comment xml:lang="zh">要求AI决策与使用不对特定人群偏颇对待的原则｜GS 46｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C47">
+    <rdfs:label xml:lang="zh">具身智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">第5章具身智能机器人与应用｜GS 47｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_J"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C49">
+    <rdfs:label xml:lang="zh">分类</rdfs:label>
+    <rdfs:comment xml:lang="zh">将输入数据归入预设类别的机器学习基本任务｜GS 49｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C51">
+    <rdfs:label xml:lang="zh">包容性与文化多样性</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI设计使用应公平惠及多元群体并保护语言文化多样性｜GS 51｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C54">
+    <rdfs:label xml:lang="zh">卷积神经网络</rdfs:label>
+    <rdfs:comment xml:lang="zh">面向图像等数据、含卷积运算的典型深度网络结构｜GS 54｜分层 Common｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C55">
+    <rdfs:label xml:lang="zh">可信人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">交大&quot;了解可信人工智能的概念和范畴&quot;（可信的安全与伦理问题）｜GS 55｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C56">
+    <rdfs:label xml:lang="zh">可持续性与环境影响</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI发展兼顾能耗碳排放与生态承载力的可持续议题｜GS 56｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C57">
+    <rdfs:label xml:lang="zh">可解释性</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI系统能以人类可理解方式说明输出依据与推理过程｜GS 57｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C58">
+    <rdfs:label xml:lang="zh">启发式图搜索策略</rdfs:label>
+    <rdfs:comment xml:lang="zh">利用启发信息和估价函数指导搜索以提高效率的策略｜GS 58｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C59">
+    <rdfs:label xml:lang="zh">启发式搜索</rdfs:label>
+    <rdfs:comment xml:lang="zh">西电&quot;2.4 启发式搜索&quot;；东南深蓝&quot;启发式搜索&quot;｜GS 59｜分层 Common｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C62">
+    <rdfs:label xml:lang="zh">图像识别</rdfs:label>
+    <rdfs:comment xml:lang="zh">对图像中对象与场景进行自动识别分类的技术｜GS 62｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C63">
+    <rdfs:label xml:lang="zh">图灵测试</rdfs:label>
+    <rdfs:comment xml:lang="zh">检测机器能否表现出人类智能的经典判据与测试方法｜GS 63｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_A"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C64">
+    <rdfs:label xml:lang="zh">基础模型</rdfs:label>
+    <rdfs:comment xml:lang="zh">经大规模预训练、可适配多种任务并支持定向微调的通用模型｜GS 64｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C67">
+    <rdfs:label xml:lang="zh">多模态大模型</rdfs:label>
+    <rdfs:comment xml:lang="zh">8.2多模态大模型（热点问题）｜GS 67｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C68">
+    <rdfs:label xml:lang="zh">多模态大语言模型（MLLM）</rdfs:label>
+    <rdfs:comment xml:lang="zh">浙大&quot;多模态大语言模型：AI绘画、扩散模型和MLLM研究前沿&quot;｜GS 68｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C69">
+    <rdfs:label xml:lang="zh">多模态学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">东南元谋&quot;多模态学习结合文本、图像、声音等不同模态数据&quot;｜GS 69｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C70">
+    <rdfs:label xml:lang="zh">大数据</rdfs:label>
+    <rdfs:comment xml:lang="zh">海量多样快速产生且需新型处理技术的数据集合与资源｜GS 70｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_I"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C72">
+    <rdfs:label xml:lang="zh">大数据智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">以大数据为驱动实现从数据到知识与决策的智能｜GS 72｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C73">
+    <rdfs:label xml:lang="zh">大语言模型</rdfs:label>
+    <rdfs:comment xml:lang="zh">经海量文本训练、能理解并生成自然语言的大规模模型｜GS 73｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C75">
+    <rdfs:label xml:lang="zh">学习分析</rdfs:label>
+    <rdfs:comment xml:lang="zh">采集分析学习者过程数据以改进教学评估与学习｜GS 75｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_K"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C76">
+    <rdfs:label xml:lang="zh">学术伦理</rdfs:label>
+    <rdfs:comment xml:lang="zh">江大&quot;在遵守学术伦理的前提下进行文本、语音、图像、视频内容生成&quot;｜GS 76｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C78">
+    <rdfs:label xml:lang="zh">就业替代与社会影响</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI对就业结构与社会的冲击与重塑效应｜GS 78｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C80">
+    <rdfs:label xml:lang="zh">开源人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">源代码与模型公开可审查定制的人工智能软件与模型｜GS 80｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_E"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C81">
+    <rdfs:label xml:lang="zh">弱人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">东南&quot;我们现在实现的几乎全是弱人工智能&quot;｜GS 81｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C82">
+    <rdfs:label xml:lang="zh">强人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">东南&quot;类似人类级别的人工智能，各方面与人类比肩&quot;｜GS 82｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C83">
+    <rdfs:label xml:lang="zh">强化学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">第四章强化学习；8.4强化学习｜GS 83｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C84">
+    <rdfs:label xml:lang="zh">归结原理（消解原理）</rdfs:label>
+    <rdfs:comment xml:lang="zh">国防&quot;经典逻辑与归结原理&quot;；西电作&quot;消解原理与子句集求解&quot;｜GS 84｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C86">
+    <rdfs:label xml:lang="zh">微调</rdfs:label>
+    <rdfs:comment xml:lang="zh">在预训练模型基础上用特定数据继续训练以适配目标任务｜GS 86｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_E"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C90">
+    <rdfs:label xml:lang="zh">批判性思维</rdfs:label>
+    <rdfs:comment xml:lang="zh">分析评估AI能力局限与影响并进行论证推理的思维能力｜GS 90｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C91">
+    <rdfs:label xml:lang="zh">批判性评估AI</rdfs:label>
+    <rdfs:comment xml:lang="zh">审视AI工具优势局限与风险后再决定是否及如何使用的能力｜GS 91｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C92">
+    <rdfs:label xml:lang="zh">推荐系统</rdfs:label>
+    <rdfs:comment xml:lang="zh">依据用户数据与行为自动推送个性化内容的算法系统｜GS 92｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_D"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C93">
+    <rdfs:label xml:lang="zh">提示工程</rdfs:label>
+    <rdfs:comment xml:lang="zh">为语言模型设计有效提示词以优化输出质量的技能｜GS 93｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_E"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C94">
+    <rdfs:label xml:lang="zh">搜索策略</rdfs:label>
+    <rdfs:comment xml:lang="zh">在问题状态空间中寻找解的智能搜索方法知识单元｜GS 94｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C95">
+    <rdfs:label xml:lang="zh">搜索算法</rdfs:label>
+    <rdfs:comment xml:lang="zh">在问题空间中搜索解路径的算法｜GS 95｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C98">
+    <rdfs:label xml:lang="zh">数字素养</rdfs:label>
+    <rdfs:comment xml:lang="zh">数字时代使用数字系统的总体能力素养｜GS 98｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C99">
+    <rdfs:label xml:lang="zh">数据偏差</rdfs:label>
+    <rdfs:comment xml:lang="zh">训练数据不具代表性或带偏误标记导致AI输出偏颇｜GS 99｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C100">
+    <rdfs:label xml:lang="zh">数据分析</rdfs:label>
+    <rdfs:comment xml:lang="zh">对数据进行整理分析与建模以提取有用信息的过程｜GS 100｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_I"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C101">
+    <rdfs:label xml:lang="zh">数据处理</rdfs:label>
+    <rdfs:comment xml:lang="zh">认识AI系统如何加工输入数据并从中学习的知识｜GS 101｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_I"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C102">
+    <rdfs:label xml:lang="zh">数据所有权</rdfs:label>
+    <rdfs:comment xml:lang="zh">个人对其数据归属使用与删除的控制权｜GS 102｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C103">
+    <rdfs:label xml:lang="zh">数据挖掘</rdfs:label>
+    <rdfs:comment xml:lang="zh">从大规模数据中自动提取模式与知识的技术｜GS 103｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C104">
+    <rdfs:label xml:lang="zh">数据标注</rdfs:label>
+    <rdfs:comment xml:lang="zh">对训练数据标注须制定规则、评估质量并培训人员的规范｜GS 104｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C105">
+    <rdfs:label xml:lang="zh">数据科学</rdfs:label>
+    <rdfs:comment xml:lang="zh">与AI素养相互结合的数据处理与分析科学领域｜GS 105｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_I"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C106">
+    <rdfs:label xml:lang="zh">数据素养</rdfs:label>
+    <rdfs:comment xml:lang="zh">理解解释处理数据并据以决策的能力、AI素养的基础｜GS 106｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C109">
+    <rdfs:label xml:lang="zh">无监督学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">从无标注数据中发现结构与规律的学习范式｜GS 109｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C110">
+    <rdfs:label xml:lang="zh">智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">人类智能的概念与特征，人工智能研究的出发点｜GS 110｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_A"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C112">
+    <rdfs:label xml:lang="zh">智能体</rdfs:label>
+    <rdfs:comment xml:lang="zh">能感知环境并自主推理决策与行动的AI程序或系统｜GS 112｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C113">
+    <rdfs:label xml:lang="zh">智能体（Agent）</rdfs:label>
+    <rdfs:comment xml:lang="zh">合工大&quot;智能体具备规划与反思能力，支持工具调用与多智能体协同&quot;｜GS 113｜分层 Common｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C118">
+    <rdfs:label xml:lang="zh">智能向善</rdfs:label>
+    <rdfs:comment xml:lang="zh">人工智能发展应用须坚持的向善伦理价值取向与原则｜GS 118｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C127">
+    <rdfs:label xml:lang="zh">机器人</rdfs:label>
+    <rdfs:comment xml:lang="zh">具备感知与执行能力、可自主或按程序作业的智能机器｜GS 127｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C128">
+    <rdfs:label xml:lang="zh">机器学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">让计算机从数据中自动学习规律并建立模型改进性能的核心AI技术｜GS 128｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C129">
+    <rdfs:label xml:lang="zh">机器定理证明</rdfs:label>
+    <rdfs:comment xml:lang="zh">西电&quot;机器定理证明&quot;；东南简史&quot;机器定理证明、跳棋程序&quot;｜GS 129｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C130">
+    <rdfs:label xml:lang="zh">机器翻译</rdfs:label>
+    <rdfs:comment xml:lang="zh">利用计算机自动实现不同语言间互译的技术｜GS 130｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C132">
+    <rdfs:label xml:lang="zh">模型训练</rdfs:label>
+    <rdfs:comment xml:lang="zh">以数据调整模型参数使其获得完成特定任务能力的过程｜GS 132｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_E"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C133">
+    <rdfs:label xml:lang="zh">模式识别</rdfs:label>
+    <rdfs:comment xml:lang="zh">利用算法对目标模式进行自动识别与分类的技术｜GS 133｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C135">
+    <rdfs:label xml:lang="zh">模糊推理</rdfs:label>
+    <rdfs:comment xml:lang="zh">基于模糊集合理论模拟人类近似思维的推理方法｜GS 135｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C136">
+    <rdfs:label xml:lang="zh">模糊逻辑</rdfs:label>
+    <rdfs:comment xml:lang="zh">合工大&quot;通过秃头悖论引出模糊逻辑&quot;；西电&quot;模糊逻辑与模糊推理&quot;｜GS 136｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C138">
+    <rdfs:label xml:lang="zh">欧盟AI法案</rdfs:label>
+    <rdfs:comment xml:lang="zh">欧盟以风险分级方式统一规制AI的首部综合性立法｜GS 138｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_H"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C139">
+    <rdfs:label xml:lang="zh">深度伪造</rdfs:label>
+    <rdfs:comment xml:lang="zh">利用AI合成以假乱真的图像音频视频等虚假内容｜GS 139｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C140">
+    <rdfs:label xml:lang="zh">深度学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">基于多层神经网络自动学习数据特征与规律的方法｜GS 140｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C143">
+    <rdfs:label xml:lang="zh">混合增强智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">人机协同共融、相互增强的智能形态｜GS 143｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_J"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C145">
+    <rdfs:label xml:lang="zh">状态空间</rdfs:label>
+    <rdfs:comment xml:lang="zh">用状态及状态转移描述问题求解过程的知识表示方法｜GS 145｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C146">
+    <rdfs:label xml:lang="zh">状态空间搜索</rdfs:label>
+    <rdfs:comment xml:lang="zh">国防&quot;第二章：状态空间搜索&quot;；浙大&quot;状态空间求解&quot;｜GS 146｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C148">
+    <rdfs:label xml:lang="zh">生成式人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">基于海量数据训练、能自主生成文本/图像/音频/视频等新内容的人工智能｜GS 148｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C150">
+    <rdfs:label xml:lang="zh">生物特征识别</rdfs:label>
+    <rdfs:comment xml:lang="zh">依据人脸/指纹/虹膜等生理特征识别身份的技术｜GS 150｜分层 Common｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C151">
+    <rdfs:label xml:lang="zh">监督学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">交大&quot;分类、回归、监督和无监督学习&quot;；国防作&quot;有监督学习&quot;｜GS 151｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C152">
+    <rdfs:label xml:lang="zh">监督学习与无监督学习</rdfs:label>
+    <rdfs:comment xml:lang="zh">按样本有无标注划分的机器学习基本学习方式｜GS 152｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C155">
+    <rdfs:label xml:lang="zh">知情同意</rdfs:label>
+    <rdfs:comment xml:lang="zh">收集使用个人数据须征得数据主体明确知情同意｜GS 155｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C157">
+    <rdfs:label xml:lang="zh">知识产权与版权</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI训练数据与生成内容的版权归属与使用规范｜GS 157｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_H"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C158">
+    <rdfs:label xml:lang="zh">知识图谱</rdfs:label>
+    <rdfs:comment xml:lang="zh">以实体与语义关系构成的大规模结构化知识网络｜GS 158｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C159">
+    <rdfs:label xml:lang="zh">知识工程</rdfs:label>
+    <rdfs:comment xml:lang="zh">研究知识获取、表示与推理运用以构建智能系统的学科｜GS 159｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C160">
+    <rdfs:label xml:lang="zh">知识库</rdfs:label>
+    <rdfs:comment xml:lang="zh">用于问题求解与语义处理的结构化知识集合｜GS 160｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C162">
+    <rdfs:label xml:lang="zh">知识表示</rdfs:label>
+    <rdfs:comment xml:lang="zh">研究用计算机可处理的形式描述人类知识的方法体系｜GS 162｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C163">
+    <rdfs:label xml:lang="zh">知识表示与推理</rdfs:label>
+    <rdfs:comment xml:lang="zh">智能体建立世界表示并据此推理求解的知识处理能力｜GS 163｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C165">
+    <rdfs:label xml:lang="zh">神经网络</rdfs:label>
+    <rdfs:comment xml:lang="zh">受生物神经元启发、由多层节点构成的参数化计算模型｜GS 165｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C167">
+    <rdfs:label xml:lang="zh">科技向善</rdfs:label>
+    <rdfs:comment xml:lang="zh">培育科技向善的价值观｜GS 167｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C168">
+    <rdfs:label xml:lang="zh">符号主义</rdfs:label>
+    <rdfs:comment xml:lang="zh">主张用符号逻辑表示知识与推理的人工智能学派｜GS 168｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C169">
+    <rdfs:label xml:lang="zh">符号人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">以符号与规则表示知识、进行逻辑推理的传统AI路线｜GS 169｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C170">
+    <rdfs:label xml:lang="zh">算力</rdfs:label>
+    <rdfs:comment xml:lang="zh">东南&quot;人工智能三要素：数据、算力、算法、场景&quot;｜GS 170｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_I"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C171">
+    <rdfs:label xml:lang="zh">算法</rdfs:label>
+    <rdfs:comment xml:lang="zh">人工智能处理数据并实现分析、预测与生成功能的步骤规则｜GS 171｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C172">
+    <rdfs:label xml:lang="zh">算法偏见与算法歧视</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI因训练数据或设计缺陷对特定群体产生系统性偏差｜GS 172｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C174">
+    <rdfs:label xml:lang="zh">算法霸权</rdfs:label>
+    <rdfs:comment xml:lang="zh">算法权力滥用导致的不公支配与控制风险｜GS 174｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C178">
+    <rdfs:label xml:lang="zh">群体智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">大量个体通过协同与交互涌现的集体智能｜GS 178｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_J"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C181">
+    <rdfs:label xml:lang="zh">聚类</rdfs:label>
+    <rdfs:comment xml:lang="zh">按相似度将数据自动分组的无监督学习方法｜GS 181｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C184">
+    <rdfs:label xml:lang="zh">自主智能系统</rdfs:label>
+    <rdfs:comment xml:lang="zh">无需人在回路、可自主感知决策与行动的系统｜GS 184｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_J"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C185">
+    <rdfs:label xml:lang="zh">自动驾驶</rdfs:label>
+    <rdfs:comment xml:lang="zh">车辆自主完成环境感知规划决策与行驶控制的技术｜GS 185｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_D"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C187">
+    <rdfs:label xml:lang="zh">自然语言处理</rdfs:label>
+    <rdfs:comment xml:lang="zh">使机器理解、生成与处理人类自然语言的技术｜GS 187｜分层 Core｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C188">
+    <rdfs:label xml:lang="zh">自然语言处理（NLP）</rdfs:label>
+    <rdfs:comment xml:lang="zh">东南沃森核心技术NLP；江大&quot;第四章：自然语言处理&quot;｜GS 188｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C189">
+    <rdfs:label xml:lang="zh">自然语言理解</rdfs:label>
+    <rdfs:comment xml:lang="zh">使机器理解自然语言语义与意图、NLP的核心｜GS 189｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C195">
+    <rdfs:label xml:lang="zh">行为主义</rdfs:label>
+    <rdfs:comment xml:lang="zh">主张通过感知-行动与进化机制产生智能的学派｜GS 195｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C196">
+    <rdfs:label xml:lang="zh">计算思维</rdfs:label>
+    <rdfs:comment xml:lang="zh">以抽象分解算法化方式求解问题的思维方法｜GS 196｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C197">
+    <rdfs:label xml:lang="zh">计算机视觉</rdfs:label>
+    <rdfs:comment xml:lang="zh">使机器从图像与视频中感知、识别与理解信息的技术｜GS 197｜分层 Core｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C201">
+    <rdfs:label xml:lang="zh">训练数据</rdfs:label>
+    <rdfs:comment xml:lang="zh">用于训练机器学习模型的标注或基准数据集及其管理要求｜GS 201｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_E"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C202">
+    <rdfs:label xml:lang="zh">设计伦理</rdfs:label>
+    <rdfs:comment xml:lang="zh">将伦理原则预先嵌入AI设计开发流程以避免事后补救｜GS 202｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C203">
+    <rdfs:label xml:lang="zh">语音处理</rdfs:label>
+    <rdfs:comment xml:lang="zh">江大&quot;3.1 语音处理的概念&quot;；东南&quot;如图像识别、语音处理、自然语言理解&quot;｜GS 203｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C204">
+    <rdfs:label xml:lang="zh">语音识别</rdfs:label>
+    <rdfs:comment xml:lang="zh">将语音信号自动识别为文本或指令的技术｜GS 204｜分层 Common｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C205">
+    <rdfs:label xml:lang="zh">课程思政</rdfs:label>
+    <rdfs:comment xml:lang="zh">积极引入课程思政内容｜GS 205｜分层 Peripheral｜adjudicated_Y</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_F"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C207">
+    <rdfs:label xml:lang="zh">超人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">东南&quot;几乎所有领域都比最聪明的人类大脑聪明很多&quot;｜GS 207｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C208">
+    <rdfs:label xml:lang="zh">跨媒体智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">面向文本图像音频视频等跨媒体信息的统一感知与推理｜GS 208｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_J"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C209">
+    <rdfs:label xml:lang="zh">过度依赖人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">不加批判依赖AI输出而弱化自身思维与能力的风险｜GS 209｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C210">
+    <rdfs:label xml:lang="zh">连接主义</rdfs:label>
+    <rdfs:comment xml:lang="zh">主张模拟神经网络结构与连接机制实现智能的学派｜GS 210｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C211">
+    <rdfs:label xml:lang="zh">透明度</rdfs:label>
+    <rdfs:comment xml:lang="zh">AI系统原理数据使用与局限向用户公开可理解的特性｜GS 211｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C212">
+    <rdfs:label xml:lang="zh">通用人工智能（AGI）</rdfs:label>
+    <rdfs:comment xml:lang="zh">浙大概念辨析&quot;GAI与AGI&quot;；南大&quot;通用人工智能发展突飞猛进&quot;｜GS 212｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C213">
+    <rdfs:label xml:lang="zh">通用数据保护条例</rdfs:label>
+    <rdfs:comment xml:lang="zh">规范个人数据处理的欧盟法规、对生成式AI具有约束力｜GS 213｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_H"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C214">
+    <rdfs:label xml:lang="zh">逻辑系统</rdfs:label>
+    <rdfs:comment xml:lang="zh">基于形式逻辑进行表示与推理的核心AI概念｜GS 214｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C215">
+    <rdfs:label xml:lang="zh">道德困境</rdfs:label>
+    <rdfs:comment xml:lang="zh">浙大伦理安全知识点&quot;道德困境、伦理冲突&quot;｜GS 215｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C218">
+    <rdfs:label xml:lang="zh">问责与责任</rdfs:label>
+    <rdfs:comment xml:lang="zh">明确AI开发部署使用中主体责任归属与损害后果承担｜GS 218｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C219">
+    <rdfs:label xml:lang="zh">隐私与数据保护</rdfs:label>
+    <rdfs:comment xml:lang="zh">个人数据在采集使用共享中不被侵犯且受法律保护｜GS 219｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_G"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C221">
+    <rdfs:label xml:lang="zh">预测人工智能</rdfs:label>
+    <rdfs:comment xml:lang="zh">通过分析历史数据识别模式并预测结果的人工智能｜GS 221｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_C"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C222">
+    <rdfs:label xml:lang="zh">预训练</rdfs:label>
+    <rdfs:comment xml:lang="zh">浙大&quot;预训练大语言模型的微调&quot;；合工大&quot;大模型预训练、领域微调与强化学习&quot;｜GS 222｜分层 Peripheral｜strict_bothY</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/L_E"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C103">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C128"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C109">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C128"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C127">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C112"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C128">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C21"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C130">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C187"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C135">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C136"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C140">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C128"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C145">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C162"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C146">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C95"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C148">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C140"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C15">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C168"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C151">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C128"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C158">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C162"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C165">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C128"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C181">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C109"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C184">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C112"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C187">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C21"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C189">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C187"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C204">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C203"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C207">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C212"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C21">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C110"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C212">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C82"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C222">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C132"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C40">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C150"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C49">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C151"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C54">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C140"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C54">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C165"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C58">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C59"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C59">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C95"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C62">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C133"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C62">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C197"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C67">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C64"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C68">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C73"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C73">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C64"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C81">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C21"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C82">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C21"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C83">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C128"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C38">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C46">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C211">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C57">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C218">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C3">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C51">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C56">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C39">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C155">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C102">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C42"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C138">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C6"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C213">
+    <rdfs:subClassOf rdf:resource="http://example.org/ai-general-education/C6"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C168">
+    <owl:equivalentClass rdf:resource="http://example.org/ai-general-education/C169"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C112">
+    <owl:equivalentClass rdf:resource="http://example.org/ai-general-education/C113"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C187">
+    <owl:equivalentClass rdf:resource="http://example.org/ai-general-education/C188"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C167">
+    <owl:equivalentClass rdf:resource="http://example.org/ai-general-education/C118"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://example.org/ai-general-education/hasPart">
+    <rdfs:label xml:lang="zh">有组成部分（A hasPart B：A 的组成部分含 B）</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/ai-general-education/hasPrerequisite">
+    <rdfs:label xml:lang="zh">先修关系（A hasPrerequisite B：A 以 B 为先修）</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/ai-general-education/appliedIn">
+    <rdfs:label xml:lang="zh">应用关系（A appliedIn B：A 应用于 B）</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/ai-general-education/basedOn">
+    <rdfs:label xml:lang="zh">奠基/基于（扩展层，来源为教材/理论结构）</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/ai-general-education/operatesOn">
+    <rdfs:label xml:lang="zh">操作对象（扩展层）</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/ai-general-education/overlapsWith">
+    <rdfs:label xml:lang="zh">语义交叠（扩展层软语义，不做一致性关键断言）</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C100">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C105"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C103">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C105"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C106">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C30"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C106">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C98"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C13">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C165"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C160">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C15"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C163">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C159"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C170">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C21"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C171">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C21"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C196">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C30"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C197">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C21"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C201">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C132"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C203">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C21"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C25">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C30"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C43">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C106"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C70">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C21"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C86">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C132"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C95">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C94"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C155">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C219"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C102">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C219"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C55">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C3"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C57">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C55"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C172">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C99">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C174">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C44">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C139">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C4">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C209">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C78">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C41">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C215">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C76">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C202">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPart"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C24"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C104">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C151"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C128">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C140"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C132">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C86"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C162">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C15"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C165">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C140"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C64">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C86"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C73">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C93"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C83">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C112"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C99">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/hasPrerequisite"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C172"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C112">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C22"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C128">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C92"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C133">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C150"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C140">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C62"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C148">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C139"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C187">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C130"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C197">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C185"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C197">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C40"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C204">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C35"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C47">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C127"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C75">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C16"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C84">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/appliedIn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C129"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C64">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/basedOn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C140"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C129">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/basedOn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C214"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C165">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/basedOn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C210"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C67">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/basedOn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C69"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C146">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/operatesOn"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C145"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C133">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/overlapsWith"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C128"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C36">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/overlapsWith"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C143"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C112">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/overlapsWith"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C184"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/ai-general-education/C69">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://example.org/ai-general-education/overlapsWith"/>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://example.org/ai-general-education/C208"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+</rdf:RDF>
