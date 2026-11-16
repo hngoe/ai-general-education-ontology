@@ -1,0 +1,10 @@
+INFO  16:06:06  ------------------------------- Running Reasoner -------------------------------
+   INFO  16:06:06  Pre-computing inferences:
+   INFO  16:06:06      - class hierarchy
+   INFO  16:06:06      - object property hierarchy
+   INFO  16:06:06      - data property hierarchy
+   INFO  16:06:06      - class assertions
+   INFO  16:06:06      - object property assertions
+   INFO  16:06:06      - same individuals
+   INFO  16:06:06  Ontologies processed in 92 ms by HermiT
+   INFO  16:06:06  
